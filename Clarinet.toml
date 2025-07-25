@@ -1,0 +1,17 @@
+[project]
+name = "proof-of-donation-protocol"
+authors = []
+description = "A simple protocol for transparent donation tracking on Stacks."
+telemetry = true
+requirements = []
+
+[contracts.proof-of-donation]
+path = "contracts/proof-of-donation.clar"
+depends_on = []
+
+[repl]
+costs_version = 2
+parser_version = 2
+
+[testing]
+testing_chai_path = ""
